@@ -2,16 +2,22 @@
 <html>
 <head>
 	<title>Countdown Clock</title>
-	<script type="text/javascript" src="./node_modules/jquery/dist/jquery.min.js"></script>
-	<link rel="stylesheet" type="text/css" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+	<script type="text/javascript" src="./app/lib/jquery/dist/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="./app/lib/bootstrap/dist/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="./app/Styles/styles.css">
-	<link rel="stylesheet" type="text/css" href="./node_modules/animate.css/animate.min.css">
-
-
+	<link rel="stylesheet" type="text/css" href="./app/lib/animate.css/animate.min.css">
 </head>
 <body>
 	<h1 class="animated bounceInDown">A basic countdown clock</h1>
-	<h2 class="animated bounceInUp"></h2>
+
+	<div class="container animated bounceInUp">
+		<h2></h2>
+	</div>
+
+ 	<div id="datePicker" class="animated rollIn">
+		<h3>Choose your own countdown!</h3>
+		<input type="datetime-local" name="datePicker"> 
+	</div> 
 
 	<script type="text/javascript" src="./app/js/countdown.js"></script>
 </body>

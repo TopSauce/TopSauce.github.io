@@ -1,8 +1,12 @@
-var countDownDate = new Date("Dec 8, 2017 14:00:00").getTime();
 var h2 = $("h2");
+var datePicker = $("input[name='datePicker']");
+datePicker.val("2017-12-08T14:00");
+var countDownDate = new Date(datePicker.val()).getTime();
 
+console.log(countDownDate)
 clock();
 timer();
+
 
 function clock() {
 	var now = new Date().getTime();
@@ -19,3 +23,10 @@ function timer() {
 		clock();
 	}, 1000)
 }
+
+datePicker.change(function(){
+	console.log(datePicker.val());
+	countDownDate = new Date(datePicker.val()).getTime();
+clock();
+
+});

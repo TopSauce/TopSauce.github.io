@@ -8,9 +8,33 @@ h1 {
 	color: white;
 	text-align: center;
 	margin: 120px auto;
+
 }
 h2 {
 	color: white;
 	text-align: center;
+	margin: auto;
+}
+h3 {
+	color: white;
+	text-align: center;
+}
+
+.container {
+	background: rgba(200, 200, 200, 0.05);
+	width:20%;
+	height:5%;
+	border-radius: 50px;
 	margin: 120px auto;
+	padding: 15px;
+	box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.2);
+}
+
+input {
+	margin: 15px auto;
+}
+
+#datePicker {
+	text-align: center;
+	margin: 25px auto;
 }
