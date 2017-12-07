@@ -1,6 +1,6 @@
 body {
-background: #0f0c29;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+background: #0f0c29;  /* fallback for old browsers */  /* Chrome 10-25, Safari 5.1-6 */
+background: -webkit-gradient(linear, left top, right top, from(#24243e), color-stop(#302b63), to(#0f0c29));
 background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
@@ -27,7 +27,8 @@ h3 {
 	border-radius: 50px;
 	margin: 120px auto;
 	padding: 15px;
-	box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.2);
+	-webkit-box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.2);
+	        box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.2);
 }
 
 input {
@@ -37,4 +38,9 @@ input {
 #datePicker {
 	text-align: center;
 	margin: 25px auto;
+}
+
+.finished {
+	color: red;
+	text-shadow: 4px 4px 2px rgba(0, 0, 0, 1);
 }
