@@ -1,6 +1,6 @@
 var h2 = $("h2");
 var datePicker = $("input[name='datePicker']");
-datePicker.val("2017-12-08T14:00");
+datePicker.val("2018-04-21T00:00");
 var countDownDate = new Date(datePicker.val()).getTime();
 
 var sound = new Howl({
