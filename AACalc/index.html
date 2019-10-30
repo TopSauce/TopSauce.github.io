@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="AA.css">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	</head>
+	<body>
+		<h1><center>Crafting Calculators</center></h1>
+		<h3><center>10% Auction House fee, and Blue Salt Knives are not included in the equations</center></h3>
+		<br>
+		<br>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4 overflow-auto">
+					<h1> Hereafter Stone</h1>
+					<input id='hereAfterPrice' type="text" class="form-control formBlock" name="bus_ticket"  placeholder="Hereafter Price" required/><br />
+					<br />
+					<h3> Materials: </h3>
+					<input id='first' type="text" class="form-control formBlock" name="bus_ticket"  placeholder="Onyx Archeum" required/><br />
+					<input id='second' type="text" class="form-control formBlock" name="plane_ticket"  placeholder="Stone Brick" required/><br />
+					<br /><br />
+					Profit Per Craft: <span id="total_expenses1"></span>
+					<br />
+					S/L: <span id="total_expenses2"></span>
+					<br /><br />
+				</div>
+				<div class="col-md-4 overflow-auto">
+					<h1>Ground Spices</h1>
+					<input id='groundSpicesPrice' type="text" class="form-control formBlock" name="ground_spices"  placeholder="Ground Spices Price" required/><br />
+					<br />
+					<h3> Materials: </h3>
+					<input id='irisPrice' type="text" class="form-control formBlock" name="Iris"  placeholder="Iris Price" required/><br />
+					<input id='lavenderPrice' type="text" class="form-control formBlock" name="Lavender"  placeholder="Lavender Price" required/><br />
+					<br /><br />
+					Profit Per Craft Iris: <span id="irisProfit"></span>
+					<br>
+					Profit Per Craft Lavender: <span id="lavenderProfit"></span>
+					<br />
+					S/L Iris: <span id="sl_iris"></span>
+					<br>
+					S/L Lavender: <span id="sl_lavender"></span>
+					<br /><br />
+				</div>
+				<div class="col-md-4 overflow-auto">
+					<h1>Chopped Produce</h1>
+					<input id='choppedProducePrice' type="text" class="form-control formBlock" name="Produce"  placeholder="Chopped Produce Price" required/><br />
+					<br />
+					<h3> Materials: </h3>
+					<input id='carrotPrice' type="text" class="form-control formBlock" name="Carrot"  placeholder="Carrot Price" required/><br />
+					<input id='cucumberPrice' type="text" class="form-control formBlock" name="Cucumber"  placeholder="Cucumber Price" required/><br />
+					<input id='garlicPrice' type="text" class="form-control formBlock" name="Garlic"  placeholder="Garlic Price" required/><br />
+					<input id='onionPrice' type="text" class="form-control formBlock" name="Onion"  placeholder="Onion Price" required/><br />
+					<input id='potatoPrice' type="text" class="form-control formBlock" name="Potato"  placeholder="Potato Price" required/><br />
+					<input id='tomatoPrice' type="text" class="form-control formBlock" name="Tomato"  placeholder="Tomato Price" required/><br />
+					<br /><br />
+					Profit Per Craft Carrot: <span id="carrotProfit"></span>
+					<br>
+					Profit Per Craft Cucumber: <span id="cucumberProfit"></span>
+					<br>
+					Profit Per Craft Garlic: <span id="garlicProfit"></span>
+					<br>
+					Profit Per Craft Onion: <span id="onionProfit"></span>
+					<br>
+					Profit Per Craft Potato: <span id="potatoProfit"></span>
+					<br>
+					Profit Per Craft Tomato: <span id="tomatoProfit"></span>
+					<br>
+					S/L Carrot: <span id="sl_carrot"></span>
+					<br>
+					S/L Cucumber: <span id="sl_cucumber"></span>
+					<br>
+					S/L Garlic: <span id="sl_garlic"></span>
+					<br>
+					S/L Onion: <span id="sl_onion"></span>
+					<br>
+					S/L Potato: <span id="sl_potato"></span>
+					<br>
+					S/L Tomato: <span id="sl_tomato"></span>
+					<br>
+				</div>
+			</div>
+		</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="AA.js"></script>
+	</body>
+</html>
