@@ -7,6 +7,10 @@
 	<body>
 		<h1><center>Crafting Calculators</center></h1>
 		<h3><center>10% Auction House fee, and Blue Salt Knives are not included in the equations</center></h3>
+		<h5><center>50s = 50</center></h5>
+		<h5><center>1g50s = 150</center></h5>
+		<h5><center>10g50s = 1050</center></h5>
+		<h5><center>1g50s55c = 150.55</center></h5>
 		<br>
 		<br>
 		<div class="container">
@@ -77,6 +81,80 @@
 					<br>
 					S/L Tomato: <span id="sl_tomato"></span>
 					<br>
+				</div>
+			</div>
+			<div style="margin-top: 25px">
+				<h1><center>Processed Basic Materials</center></h1>
+			</div>
+			<div class="row">
+				<div class="col-md-4 overflow-auto">
+					<h1> Lumber</h1>
+					<input id='lumberPrice' type="text" class="form-control formBlock" name="lumber"  placeholder="Lumber Price" required/><br />
+					<br />
+					<h3> Materials: </h3>
+					<input id='logPrice' type="text" class="form-control formBlock" name="log"  placeholder="Log Price" required/><br />
+					<br /><br />
+					Profit Per Craft: <span id="lumberProfit"></span>
+					<br />
+					S/L: <span id="sl_lumber"></span>
+					<br /><br />
+				</div>
+				
+				<div class="col-md-4 overflow-auto">
+					<h1> Stone Brick</h1>
+					<input id='stonePrice' type="text" class="form-control formBlock" name="stone"  placeholder="Stone Brick Price" required/><br />
+					<br />
+					<h3> Materials: </h3>
+					<input id='rawstonePrice' type="text" class="form-control formBlock" name="rawstone"  placeholder="Raw Stone Price" required/><br />
+					<br /><br />
+					Profit Per Craft: <span id="stoneProfit"></span>
+					<br />
+					S/L: <span id="sl_stone"></span>
+					<br /><br />
+				</div>
+				<div class="col-md-4 overflow-auto">
+					<h1> Iron Ingot</h1>
+					<input id='ironPrice' type="text" class="form-control formBlock" name="iron"  placeholder="Iron Price" required/><br />
+					<br />
+					<h3> Materials: </h3>
+					<input id='orePrice' type="text" class="form-control formBlock" name="ore"  placeholder="Iron Ore Price" required/><br />
+					<br /><br />
+					Profit Per Craft: <span id="ironProfit"></span>
+					<br />
+					S/L: <span id="sl_iron"></span>
+					<br /><br />
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4 overflow-auto">
+					<h1> Leather</h1>
+					<input id='leatherPrice' type="text" class="form-control formBlock" name="leather"  placeholder="Leather Price" required/><br />
+					<br />
+					<h3> Materials: </h3>
+					<input id='peltPrice' type="text" class="form-control formBlock" name="pelt"  placeholder="Pelt Price" required/><br />
+					<br /><br />
+					Profit Per Craft: <span id="leatherProfit"></span>
+					<br />
+					S/L: <span id="sl_leather"></span>
+					<br /><br />
+				</div>
+				<div class="col-md-4{} overflow-auto">
+					<h1> Fabric</h1>
+					<input id='fabricPrice' type="text" class="form-control formBlock" name="fabric"  placeholder="Fabric Price" required/><br />
+					<br />
+					<h3> Materials: </h3>
+					<input id='cottonPrice' type="text" class="form-control formBlock" name="cotton"  placeholder="cotton Price" required/><br />
+					<br /><br />
+					<input id='woolPrice' type="text" class="form-control formBlock" name="wool"  placeholder="Wool Price" required/><br />
+					<br /><br />
+					Profit Per Craft Cotton: <span id="cottonProfit"></span>
+					<br />
+					S/L: <span id="sl_cotton"></span>
+					<br /><br />
+					Profit Per Craft Wool: <span id="woolProfit"></span>
+					<br />
+					S/L: <span id="sl_wool"></span>
+					<br /><br />
 				</div>
 			</div>
 		</div>

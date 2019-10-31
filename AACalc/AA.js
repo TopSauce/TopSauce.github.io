@@ -61,3 +61,77 @@ $('input').keyup(function(){ // run anytime the value changes
 // add them and output it
 });
 
+// Lumber
+$('input').keyup(function(){ // run anytime the value changes
+    var logValue  = Number($('#logPrice').val())*3;   // get value of field
+    var lumberPrice  = Number($('#lumberPrice').val());
+    
+
+    $('#lumberProfit').html(lumberPrice - logValue ) ; // add them and output it
+    $('#sl_lumber').html((lumberPrice - logValue ) /5) ; // add them and output it
+
+
+// add them and output it
+});
+
+
+// Stone
+$('input').keyup(function(){ // run anytime the value changes
+    var rawstoneValue  = Number($('#rawstonePrice').val())*3;   // get value of field
+    var stonePrice  = Number($('#stonePrice').val());
+    
+
+    $('#stoneProfit').html(stonePrice - rawstoneValue ) ; // add them and output it
+    $('#sl_stone').html((stonePrice - rawstoneValue ) /5) ; // add them and output it
+
+
+// add them and output it
+});
+
+
+// Iron
+$('input').keyup(function(){ // run anytime the value changes
+    var oreValue  = Number($('#orePrice').val())*3;   // get value of field
+    var ironPrice  = Number($('#ironPrice').val());
+    
+
+    $('#ironProfit').html(ironPrice - oreValue ) ; // add them and output it
+    $('#sl_iron').html((ironPrice - oreValue ) /5) ; // add them and output it
+
+
+// add them and output it
+});
+
+// Leather
+$('input').keyup(function(){ // run anytime the value changes
+    var peltValue  = Number($('#peltPrice').val())*3;   // get value of field
+    var leatherPrice  = Number($('#leatherPrice').val());
+    
+
+    $('#leatherProfit').html(leatherPrice - peltValue ) ; // add them and output it
+    $('#sl_leather').html((leatherPrice - peltValue ) /5) ; // add them and output it
+
+
+// add them and output it
+});
+
+
+// Fabric
+$('input').keyup(function(){ // run anytime the value changes
+    var cottonValue  = Number($('#cottonPrice').val())*10;   // get value of field
+    var woolValue  = Number($('#woolPrice').val())*3;
+    var fabricPrice  = Number($('#fabricPrice').val());
+
+    
+
+    $('#cottonProfit').html(fabricPrice - cottonValue ) ; // add them and output it
+    $('#woolProfit').html(fabricPrice - woolValue ) ; // add them and output it
+
+    $('#sl_cotton').html((fabricPrice - cottonValue ) /5) ; // add them and output it
+    $('#sl_wool').html((fabricPrice - woolValue ) /5) ; // add them and output it
+
+
+
+// add them and output it
+});
+
