@@ -1,3 +1,24 @@
+/* To-Do List: 
+Add more recipes
+Organize, categorize, recipes with a way to easily find them
+Scale size down, create a tidy card-like grid layout with all boxes.
+Add a proficiency multiplier
+trade pack calculator?
+*/
+
+
+
+
+
+
+
+
+P
+
+
+
+
+
 console.log("Script Loaded");
 
 // Hereafter Stones
